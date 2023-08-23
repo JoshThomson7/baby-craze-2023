@@ -40,34 +40,22 @@
 
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <?php echo file_get_contents(FL1_PATH . '/img/logo.svg') ?>
+                                <h2 style="color: white;">THE BABY CRAZE</h2>
                             </a>
                         </div><!-- logo -->
                         <?php include FL1_PATH . '/modules/mega-menu.php'; ?>
                     </div><!-- left -->
 
                     <div class="header__main--right">
-                        <nav class="top-nav">
+                        <!-- <nav class="top-nav">
                             <ul>
                                 <li>
-                                    <a href="https://partner.insigniscash.com/" target="_blank">
-                                        <i class="fa-regular fa-briefcase"></i> <span>Partner Portal</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://clients.insigniscash.com/" target="_blank">
-                                        <i class="fa-regular fa-user"></i> <span>Client Login</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('open-an-account'))) ?>" class="button secondary tiny">
-                                        Open an account
+                                    <a href="/contact" class="button secondary tiny">
+                                        Connect
                                     </a>
                                 </li>
                             </ul>
-                        </nav>
+                        </nav> -->
                     </div><!-- right -->
 
                 </div><!-- max__width -->

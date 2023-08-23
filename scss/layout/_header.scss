@@ -29,7 +29,7 @@ header.header {
 
     .header__main {
         position: relative;
-		margin: var(--fl1-spacing-md) 0 var(--fl1-spacing-lg);
+		margin: 20px 0 10px;
 
         @include breakpoint(560px) {
 			margin: var(--fl1-spacing-md) 0;
@@ -46,32 +46,16 @@ header.header {
         &--left {
             display: flex;
             align-items: center;
-
-			@include breakpoint(560px) {
-				width: 100%;
-			}
+            flex-direction: column;
+            width: 100%;;
 
             .logo {
-                width: 256px;
-                transition: all 0.4s ease;
-
-				@include breakpoint(brotherbear) {
-					width: 212px;
-				}
-
-				@include breakpoint(560px) {
-					margin: 0 auto;
-					width: 256px;
-				}
+                text-align: center;
 				
                 a {
                     display: block;
-                    svg {
-                        width: 100%;
-                        .coloured { 
-                            fill: var(--fl1-primary);       
-                        }
-                    }
+                    
+                    h2{font-size: 50px;}
                 }
             }
         }

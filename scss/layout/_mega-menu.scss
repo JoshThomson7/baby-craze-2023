@@ -1,5 +1,4 @@
 nav.mega-menu {
-    margin-left: var(--fl1-spacing-md);
 
     @include breakpoint(papabear) {
         display: none;
@@ -17,9 +16,8 @@ nav.mega-menu {
             a {
                 font-size: 18px;
                 color: var(--fl1-white);
-                font-size: 14px;
                 font-weight: 600;
-                padding: var(--fl1-spacing-md) var(--fl1-spacing-xs);
+                padding: 20px;
                 display: block;
                 position: relative;
                 transition: all 0.1s ease;

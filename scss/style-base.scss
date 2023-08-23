@@ -43,3 +43,77 @@
 @import '../modules/flexible-content/scss/flexible-content';
 
 @import 'layout/footer';
+
+
+.wp-pointer-bottom{
+  margin-top: -40px;
+  top: auto!important;
+}
+
+.aal-image-preview-tooltip .wp-pointer-content{
+  border: none; box-shadow: none;
+}
+
+.aal-image-preview-tooltip .wp-pointer-content a{
+  width: 95%; height: 95%;
+}
+
+.amazon-products-container-list{
+  display: flex; flex-wrap: wrap; justify-content: space-between; overflow-y: visible; overflow-x: visible;
+
+  .amazon-product-container{
+    width: 31%;
+
+    .amazon-auto-links-product{
+      display: flex; flex-direction: column; background: #FFF; border: 1px solid #efefef; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+      .amazon-auto-links-product-image{
+        width: 100%; margin-right: 0;
+
+        .amazon-product-thumbnail{
+          margin: 0; padding: 0; width: 100%!important;
+
+          a{
+            padding: 0;
+
+            img{
+              padding: 20px; -webkit-filter: grayscale(30%); -moz-filter: grayscale(30%); filter: grayscale(30%); transition: all 0.5s ease;
+
+              &:hover{filter: none !important;}
+            }
+          }
+        }
+      }
+
+      .amazon-auto-links-product-body{
+        width: 100%; display: flex; flex-direction: column;
+
+        h5{padding: 10px; margin-bottom: 10px;}
+
+        .product-box-info{
+          display: flex; align-items: center; justify-content: space-between; padding: 0 10px;
+        }
+
+        .amazon-prices{
+          margin-right: 0;
+
+          .offered-price{
+            font-size: 26px; color: $primary;
+          }
+        }
+
+        .amazon-product-updated-time{
+          display: none;
+        }
+
+        .pricing-disclaimer{
+          display: none;
+        }
+
+        .button{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
