@@ -45,9 +45,17 @@
 @import 'layout/footer';
 
 
+.home{
+  background-image: url('img/wallpaper.png');
+    background-repeat: repeat;
+	  background-position: center;
+    background-size: auto;
+}
+
 .wp-pointer-bottom{
   margin-top: -40px;
   top: auto!important;
+  display: none;
 }
 
 .aal-image-preview-tooltip .wp-pointer-content{
@@ -62,7 +70,7 @@
   display: flex; flex-wrap: wrap; justify-content: space-between; overflow-y: visible; overflow-x: visible;
 
   .amazon-product-container{
-    width: 31%;
+    width: 24%;
 
     .amazon-auto-links-product{
       display: flex; flex-direction: column; background: #FFF; border: 1px solid #efefef; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
