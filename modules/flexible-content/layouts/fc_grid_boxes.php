@@ -87,7 +87,7 @@ if(!empty($grid_boxes) && is_array($grid_boxes)):
                         <?php echo $overlay_link_close; ?>
 
                         <?php if($button_label && !$grid_boxes_overlay): ?>
-                            <a href="<?php echo $button_url; ?>" class="link animate-icon"<?php echo $target; ?>><?php echo $button_label; ?> <i class="fa fa-chevron-right"></i></a>
+                            <a href="<?php echo $button_url; ?>" class="button secondary"<?php echo $target; ?>><?php echo $button_label; ?></a>
                         <?php endif; ?>
                     </div><!-- grid__box__content -->
                 </div><!-- padder -->

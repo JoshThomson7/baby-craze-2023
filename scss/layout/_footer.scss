@@ -6,10 +6,11 @@
 .footer {
 
     position: relative;
-    background: var(--fl1-primary);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100%;
+    // background: var(--fl1-secondary);
+    // background-repeat: no-repeat;
+    // background-position: bottom center;
+    // background-size: 100%;
+    font-family: $textFont;
 
     // .footer__signup {
     //     display: flex;
@@ -260,7 +261,7 @@
 
                 a {
                     font-size: 14px;
-                    color: var(--fl1-white);
+                    color: $black;
 
                     &:hover {
                         color: var(--fl1-secondary);
@@ -392,10 +393,10 @@
                 white-space: nowrap;
 
                 a {
-                    color: #fff;
+                    color: $black;
 
                     &:hover {
-                        color: var(--fl1-secondary);
+                        color: $white;
                     }
                 }
             }
@@ -406,7 +407,7 @@
         display: flex;
         justify-content: space-between;
         padding: var(--fl1-spacing-lg) 0;
-        border-top: 1px lighten($primary, 10%) solid;
+        // border-top: 1px lighten($black, 10%) solid;
 
         @include breakpoint(brotherbear) {
             flex-direction: column;
@@ -440,10 +441,10 @@
 
         small {
             font-size: 12px;
-            color: var(--fl1-white);
+            color: $black;
 
             a {
-                color: var(--fl1-white);
+                color: $black;
                 font-size: 12px;
                 display: flex;
                 align-items: center;

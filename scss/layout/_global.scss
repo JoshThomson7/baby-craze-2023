@@ -2,7 +2,7 @@
 body {
 	font-family: var(--fl1-primary-font);
 	font-size: var(--fl1-base-font-size);
-	font-weight: 400;
+	// font-weight: 400;
 	color: var(--fl1-text);
 	overflow-x: hidden;
 
@@ -116,7 +116,7 @@ img {
  * Buttons
  */
 .button {
-	font-family: var(--fl1-primary-font);
+	font-family: $textFont;
 	font-weight: 700;
 	font-size: var(--fl1-font-xs);
 	padding: var(--fl1-spacing-md) var(--fl1-spacing-lg);
@@ -132,6 +132,7 @@ img {
 	line-height: 1.4;
 	transition: all 0.3s ease;
 	color: #fff;
+	border-radius: 20px;
 
 	&.icon {
 		&-left {
@@ -170,11 +171,11 @@ img {
 	}
 
 	&.primary {
-		background: var(--fl1-primary); color: white;
+		background: var(--fl1-primary); //color: white;
 	}
 
 	&.secondary {
-		background: var(--fl1-secondary);
+		background: var(--fl1-secondary); color: black;
 	}
 
 	&.textLight {

@@ -54,7 +54,7 @@
             </div><!-- subfooter--left -->
 
             <div class="subfooter--right">
-                <small><a href="http://www.fl1.digital" target="_blank">Powered by TWS</a></small>
+                <!-- <small><a href="http://www.fl1.digital" target="_blank">Powered by TWS</a></small> -->
             </div><!-- subfooter--left -->
         </div><!-- subfooter -->
 </footer>

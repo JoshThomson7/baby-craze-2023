@@ -40,7 +40,7 @@
 
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <h2 style="color: white;">THE BABY CRAZE</h2>
+                                <img src="https://keystone.twsbeta3.co.uk/wp-content/uploads/2023/08/THE-BABY-CRAZE-e1692895362681.png" alt="Logo">
                             </a>
                         </div><!-- logo -->
                         <?php include FL1_PATH . '/modules/mega-menu.php'; ?>

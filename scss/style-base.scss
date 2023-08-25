@@ -46,34 +46,29 @@
 
 
 .home{
-  background-image: url('img/wallpaper.png');
-    background-repeat: repeat;
-	  background-position: center;
-    background-size: auto;
-}
-
-.wp-pointer-bottom{
-  margin-top: -40px;
-  top: auto!important;
-  display: none;
-}
-
-.aal-image-preview-tooltip .wp-pointer-content{
-  border: none; box-shadow: none;
-}
-
-.aal-image-preview-tooltip .wp-pointer-content a{
-  width: 95%; height: 95%;
+    .fc_grid_boxes, footer{
+      background-image: url('img/wallpaper.png');
+      background-repeat: repeat;
+	    background-position: top;
+      background-size: auto;
+    }
 }
 
 .amazon-products-container-list{
-  display: flex; flex-wrap: wrap; justify-content: space-between; overflow-y: visible; overflow-x: visible;
+  // display: flex; flex-wrap: wrap; justify-content: space-between; overflow-y: visible; overflow-x: visible;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 15px;
+  @include breakpoint(900px) {grid-template-columns:1fr 1fr 1fr;}
+  @include breakpoint(800px) {grid-template-columns:1fr 1fr; gap: 10px;}
+  @include breakpoint(500px) {grid-template-columns:1fr; gap: 0px;}
 
   .amazon-product-container{
-    width: 24%;
+    width: 100%; flex: 1;
 
     .amazon-auto-links-product{
-      display: flex; flex-direction: column; background: #FFF; border: 1px solid #efefef; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+      display: flex; flex-direction: column; background: #FFF; border: 1px solid #efefef; justify-content: space-between; height: 100%;             box-shadow: 0 4px 8px 0 rgba(222, 237, 243,.9), 0 6px 20px 0 rgba(0,0,0,.19);
+
 
       .amazon-auto-links-product-image{
         width: 100%; margin-right: 0;
@@ -96,7 +91,9 @@
       .amazon-auto-links-product-body{
         width: 100%; display: flex; flex-direction: column;
 
-        h5{padding: 10px; margin-bottom: 10px;}
+        h5{padding: 10px; margin-bottom: 10px; line-height: 24px;
+          a{color: black; font-family: $textFont; font-size: 18px;}
+        }
 
         .product-box-info{
           display: flex; align-items: center; justify-content: space-between; padding: 0 10px;
@@ -106,7 +103,7 @@
           margin-right: 0;
 
           .offered-price{
-            font-size: 26px; color: $primary;
+            font-size: 26px; color: $black;
           }
         }
 
@@ -119,7 +116,7 @@
         }
 
         .button{
-          margin-top: 10px;
+          margin-top: 10px; font-family: $textFont; border-radius: 0;
         }
       }
     }

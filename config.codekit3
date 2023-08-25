@@ -233,6 +233,126 @@
       "oAP" : "\/fonts\/_mont\/Mont-SemiBold.woff2",
       "oF" : 0
     },
+    "\/fonts\/atma\/Atma-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Bold.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Bold.woff",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Bold.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Light.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Light.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Light.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Light.woff",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Light.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Light.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Medium.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Medium.woff",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Medium.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Regular.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Regular.woff",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-Regular.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-SemiBold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-SemiBold.woff",
+      "oF" : 0
+    },
+    "\/fonts\/atma\/Atma-SemiBold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/atma\/Atma-SemiBold.woff2",
+      "oF" : 0
+    },
     "\/fonts\/fa\/fa-brands-400.ttf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2806,21 +2926,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/modules\/flexible-content\/scss\/layouts\/_fc-grid-boxes copy.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/modules\/flexible-content\/scss\/layouts\/_fc-grid-boxes copy.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/modules\/flexible-content\/scss\/layouts\/_fc-grid-boxes.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -3425,6 +3530,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/fonts\/_all.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/fonts\/_atma.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/fonts\/_atma.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

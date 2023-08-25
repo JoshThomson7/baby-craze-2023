@@ -6,7 +6,7 @@ header.header {
     transition: all 0.4s ease;
     width: 100%;
     z-index: 2;
-	background: var(--fl1-primary);
+	//background: var(--fl1-primary);
 
     .header--site__wide__notice {
         padding: 10px 0;
@@ -29,7 +29,7 @@ header.header {
 
     .header__main {
         position: relative;
-		margin: 20px 0 10px;
+		//margin: 20px 0 10px;
 
         @include breakpoint(560px) {
 			margin: var(--fl1-spacing-md) 0;
@@ -46,11 +46,12 @@ header.header {
         &--left {
             display: flex;
             align-items: center;
-            flex-direction: column;
-            width: 100%;;
+            // flex-direction: column;
+            width: 100%;
+            justify-content: space-between;
 
             .logo {
-                text-align: center;
+                text-align: center; width: 200px; margin-bottom: 10px;
 				
                 a {
                     display: block;

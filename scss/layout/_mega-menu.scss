@@ -13,11 +13,18 @@ nav.mega-menu {
         li {
             list-style: none;
             position: relative;
+
+            &:last-child{background: $secondary; border-radius: 20px;
+                &:hover{background: $primary;
+                    a{color: $tertiary!important;}
+                }
+            }
+
             a {
                 font-size: 18px;
-                color: var(--fl1-white);
+                color: $black;
                 font-weight: 600;
-                padding: 20px;
+                padding: 20px 20px 15px;
                 display: block;
                 position: relative;
                 transition: all 0.1s ease;
@@ -32,8 +39,9 @@ nav.mega-menu {
             }
 
             &:hover {
+                background: $tertiary; transition: .3s ease all; border-radius: 20px;
                 a {
-                    border-bottom: 2px var(--fl1-secondary) solid;
+                    color: white!important;
                 }
             }
 

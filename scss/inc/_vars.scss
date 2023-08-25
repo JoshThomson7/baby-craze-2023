@@ -1,13 +1,15 @@
 // Fonts
-$primaryFont: 'Quicksand', sans-serif;
-$secondaryFont: 'Quicksand', sans-serif;
+$primaryFont: 'Atma-Medium', sans-serif;
+$textFont: 'Quicksand', sans-serif;
 $baseFontSize: 1rem; // 16px
 $baseFontColor: #5A5072;
 
 // Colours
 $primary: #DEEDF3;
 $primaryLight: #F9ECED;
-$secondary: #FFA64E;
+$secondary: #F9DA55;
+$tertiary: #F173A2;
+$black: #1C0F13;
 $lightgrey: #F3F4F5;
 $text: $baseFontColor;
 $textLight: #435366;
@@ -23,9 +25,9 @@ $white: #fff;
 
     // Colors
     --fl1-primary: #DEEDF3;
-    --fl1-secondary: #FFA64E;
+    --fl1-secondary: #F9DA55;
     --fl1-lightgrey: #F3F4F5;
-    --fl1-text: #5A5072;
+    --fl1-text: #1C0F13;
     --fl1-text-light: #b2aebd;
     --fl1-border: #D0D5DA;
     --fl1-border-dark: lighten($text, 35%);
@@ -35,8 +37,8 @@ $white: #fff;
     --fl1-white: #fff;
 
     // Fonts
-    --fl1-primary-font: 'Quicksand', sans-serif;
-    --fl1-secondary-font: 'Quicksand', sans-serif;
+    --fl1-primary-font: 'Atma-Medium', sans-serif;
+    --fl1-secondary-font: 'Atma-Medium', sans-serif;
     --fl1-base-font-size: 1rem;	// 16px
 
 	// Font sizes
