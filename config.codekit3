@@ -499,49 +499,6 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/img\/fl1-icon.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/fl1-icon.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logo-email.png" : {
-      "ft" : 32768,
-      "iS" : 23514,
-      "oA" : 0,
-      "oAP" : "\/img\/logo-email.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/img\/logo-login.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logo-login.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/img\/select-arrow-down-white.png" : {
       "ft" : 32768,
       "iS" : 386,
@@ -1435,62 +1392,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/modules\/advanced-events-framework\/acf-json\/group_58245454a89ca.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/modules\/advanced-events-framework\/acf-json\/group_58245454a89ca-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/modules\/advanced-events-framework\/class-aef-acf.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/advanced-events-framework\/class-aef-acf.php",
-      "oF" : 0
-    },
-    "\/modules\/advanced-events-framework\/class-aef-cpt.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/advanced-events-framework\/class-aef-cpt.php",
-      "oF" : 0
-    },
-    "\/modules\/advanced-events-framework\/class-aef-event.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/advanced-events-framework\/class-aef-event.php",
-      "oF" : 0
-    },
-    "\/modules\/advanced-events-framework\/class-aef.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/advanced-events-framework\/class-aef.php",
-      "oF" : 0
-    },
-    "\/modules\/advanced-events-framework\/templates\/event-single.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/advanced-events-framework\/templates\/event-single.php",
-      "oF" : 0
-    },
-    "\/modules\/advanced-events-framework\/templates\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/advanced-events-framework\/templates\/index.php",
-      "oF" : 0
-    },
     "\/modules\/advanced-video-banners\/functions\/class-avb-banner-html-video.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1857,124 +1758,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/modules\/blog\/templates\/blog.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/assets\/js\/ins-banks.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/assets\/js\/ins-banks.min-min.js",
-      "oF" : 0,
-      "sC" : 1,
-      "tS" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c-cpt.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c-cpt.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c-faq.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c-faq.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c-public.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c-public.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c-team.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c-team.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c-testimonial.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c-testimonial.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c-user.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c-user.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-fl1c.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-fl1c.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-ins-bank.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-ins-bank.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-ins-banks.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-ins-banks.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/class-ins-rate.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/class-ins-rate.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/js\/ins-banks.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/assets\/js\/ins-banks.min.js",
-      "oF" : 2,
-      "sC" : 1,
-      "tS" : 0
-    },
-    "\/modules\/fl1-client\/templates\/banks\/banks-loop.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/templates\/banks\/banks-loop.php",
-      "oF" : 0
-    },
-    "\/modules\/fl1-client\/templates\/team\/single-team.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/modules\/fl1-client\/templates\/team\/single-team.php",
       "oF" : 0
     },
     "\/modules\/flexible-content\/acf-json\/group_5acf50292c7aa.json" : {
@@ -3976,7 +3759,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 695575052.45961595,
-    "displayValue" : "construction-2023",
+    "displayValue" : "baby-craze-2023",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-verd",
     "iconImageWasSetByUser" : 0

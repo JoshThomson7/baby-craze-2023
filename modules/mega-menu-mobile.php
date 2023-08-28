@@ -1,8 +1,7 @@
 <nav id="nav_mobile" class="nav__mobile">
     <div>
-        <div class="menu__logo">
-			<?php echo file_get_contents(FL1_PATH.'/img/logo.svg') ?>
-		</div>
+        <!-- <div class="menu__logo">
+		</div> -->
         <ul>
             <?php
                 while(have_rows('mega_menu', 'option')) : the_row();
