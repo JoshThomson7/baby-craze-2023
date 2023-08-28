@@ -618,6 +618,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/tbc-logo.png" : {
+      "ft" : 32768,
+      "iS" : 27707,
+      "oA" : 0,
+      "oAP" : "\/img\/tbc-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/img\/wallpaper-2.jpeg" : {
       "ft" : 16384,
       "iS" : 32242,

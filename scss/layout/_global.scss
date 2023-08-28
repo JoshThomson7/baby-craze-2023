@@ -134,6 +134,10 @@ img {
 	color: #fff;
 	border-radius: 20px;
 
+	@include breakpoint(800px){
+		padding: 17px;
+	}
+
 	&.icon {
 		&-left {
 			i {

@@ -34,15 +34,17 @@
                 <div class="max__width">
 
                     <div class="header__main--left">
-                        <a href="#nav_mobile" class="burger__menu">
-                            <i class="fal fa-bars"></i>
-                        </a>
-
+                        
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
                                 <img src="https://keystone.twsbeta3.co.uk/wp-content/uploads/2023/08/THE-BABY-CRAZE-e1692895362681.png" alt="Logo">
                             </a>
                         </div><!-- logo -->
+                        
+                        <a href="#nav_mobile" class="burger__menu">
+                            <i class="fal fa-bars"></i>
+                        </a>
+
                         <?php include FL1_PATH . '/modules/mega-menu.php'; ?>
                     </div><!-- left -->
 

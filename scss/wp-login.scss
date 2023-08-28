@@ -15,14 +15,22 @@ html {
         min-height:600px;
         display: flex;
         box-sizing: border-box;
-        background: #1B1B1E;
+        background: $primary;
     }
 
 	.login {
 
 		/* Logo */
 		h1 { padding: 0 0 20px;
-			a { background:url(img/logo-login.svg) no-repeat scroll 0 -40px transparent; background-size: 340px auto; display:block; margin:0 auto; width: 340px; padding:0; height: 76px;}
+			a{
+				background: url(img/tbc-logo.png) no-repeat scroll 0 0px rgba(0,0,0,0);
+				background-size: 250px auto;
+				display: block;
+				margin: 0 auto;
+				width: 280px;
+				padding: 0;
+				height: 160px;
+			}
 		}
 
 		/* Error Message */
