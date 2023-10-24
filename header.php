@@ -37,7 +37,7 @@
                         
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <img src="https://keystone.twsbeta3.co.uk/wp-content/uploads/2023/08/THE-BABY-CRAZE-e1692895362681.png" alt="Logo">
+                                <img src="https://thebabycraze.co.uk/wp-content/uploads/2023/08/THE-BABY-CRAZE-e1692895362681.png" alt="Logo">
                             </a>
                         </div><!-- logo -->
                         

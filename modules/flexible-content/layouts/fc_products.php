@@ -3,9 +3,6 @@
     Grid Links
 */
 $prod_box_num = get_sub_field('boxes_per_row');
-
-
-
 // $alt_title = get_sub_field('override_page_title');
 ?>
 
@@ -16,7 +13,7 @@ $prod_box_num = get_sub_field('boxes_per_row');
         foreach($product_links as $product_link):
 
         $attachment_id = get_field('product_image', $product_link->ID);
-        $product_link_img = vt_resize( $attachment_id, '', 800, 800, true);
+        $product_link_img = vt_resize( $attachment_id, '', 320, 320, false);
 
         $product_title = get_field('product_title', $product_link->ID);
         $product_description = get_field('product_description', $product_link->ID);
@@ -30,9 +27,9 @@ $prod_box_num = get_sub_field('boxes_per_row');
                     <figure style="background-image:url(<?php echo $product_link_img['url']; ?>);"></figure>
 
                     <div class="grid-box-content ">
-                        <h3>Title: <?php echo $product_title; ?></h3>
-                        <p>Description: <?php echo $product_description; ?></p>
-                        <p>Price: <?php echo $product_price; ?></p>
+                        <h3><?php echo $product_title; ?></h3>
+                        <p><?php echo $product_description; ?></p>
+                        <p class="price"><?php echo $product_price; ?></p>
                         <a href="<?php echo $product_button_link; ?>" class="button secondary"><?php echo $product_button_text; ?></a>
                     </div><!-- grid__box__content -->
                 </div><!-- padder -->
