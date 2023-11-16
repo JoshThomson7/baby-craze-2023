@@ -90,7 +90,7 @@ if(!empty($banners)):
 
 <?php else: ?>
     
-    <section class="avb">
+    <!-- <section class="avb">
         <div class="avb-banners avb-empty">
             <div class="avb-banner">
                 <div class="avb-banner__caption">
@@ -102,6 +102,6 @@ if(!empty($banners)):
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 <?php endif; ?>
